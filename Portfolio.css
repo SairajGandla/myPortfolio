@@ -1,0 +1,360 @@
+	*{
+		padding:0;
+		margin:0;
+		box-sizing: border-box;
+		scroll-behavior:smooth;
+
+	}
+	.head
+	{
+		
+		width:80%;
+		margin:0 auto;
+		padding:20px;
+		position:relative;
+	}
+
+	nav{
+		display:flex;
+		padding:2% 6%;
+		justify-content:space-between;
+		align-items:center;
+		
+	}
+	nav h2
+	{
+		width:150px;
+	}
+	.nav
+	{
+		display:flex;
+		justify-content: space-between;
+	}
+	.nav-links{
+		flex:1;
+		text-align:right;
+	}
+	.nav-links ul{
+		display:inline-block;
+		list-style-type: none;
+	}
+	.nav-links ul li{
+		display:inline-block;
+		margin:20px;
+	}
+	.nav-links ul a
+	{
+
+		font-size:16px;
+		text-decoration: none;
+		color:black;
+		font-weight:bold;
+	} 
+
+	nav .fa{
+
+		display:none;
+	}
+
+/*-----container2------*/
+.container2
+{
+	display:flex;
+	padding:30px 0;
+}
+.container2 .image
+{
+	flex-basis:50%;
+
+}
+#img{
+	border-radius:50%;
+	height:400px;
+	display:block;
+	margin:0 auto;
+
+}
+.container2 .text{
+	flex-basis:50%;
+	text-align:center;
+	margin:auto 0;
+}
+.txt span{
+color:#5bc0de;
+
+}
+.text .txt{
+font-size:50px;
+font-weight:light;
+margin-bottom:20px;
+}
+.text h3
+{
+	font-weight:light;
+}
+
+/*----container3------*/
+.container3
+{
+	display:flex;
+	padding:30px 0;
+	justify-content: space-around;
+	text-align: center;
+	margin:20px 0;
+
+}
+.container3 .card{
+	border:1px solid lightgrey;
+	flex-basis:31%;
+	height:100px;
+	box-shadow:0 3px 6px 3px rgba(0,0,0,0.2);
+	border-radius: 2px;
+}
+.container3 .card h4
+{
+	padding-top:14px;
+	font-size:20px;
+
+}
+.container3 .card p
+{
+	padding-top:4px;
+	padding-bottom:-21px;
+	color:#9FA6B2
+}
+/*-----container4------*/
+.info
+{
+	color:#5bc0de;
+}
+.container4
+{
+	padding:30px 0;
+	margin:30px 0;
+	text-align:center;
+	background-color: #f8f9fa;
+}
+.container4 h1
+{
+	font-weight:light;
+
+
+}
+.container4 h3
+{
+	font-weight:light;
+	padding:10px 0;
+}
+.skills
+{
+	display:flex;
+	justify-content: space-around;
+
+
+}
+.skill
+{
+	margin:20px 0;
+}
+.skill img{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+}
+/*--------container5-------*/
+.container5
+{
+	margin:30px 0;
+	padding-top:20px;
+	text-align:center;
+	padding:30px 0;
+}
+.container5 h1
+{
+	font-weight: light;
+
+}
+.container5 h3
+{
+	font-weight:light;
+	padding-top:14px;
+
+}
+.cards1
+{
+	width:80%;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.project-card
+{
+	flex-basis:30%;
+
+	box-shadow:0 8px 12px 0 rgba(0,0,0,0.2);
+
+}
+.project-card img{
+
+	height:220px;
+}
+.project-card h1
+{
+	padding:20px 0;
+	font-weight:260;
+
+}
+.project-card p
+{
+	padding:10px 0 80px;
+}
+.arrow
+{
+	text-align: right;
+	font-weight: bold;
+	width:80%;
+
+	margin:0 auto;
+
+}
+
+/*------Footer--------*/
+.footer{
+	background-color: black;
+	text-align:center;
+}
+.top{
+	padding:40px 0;
+}
+.top button
+{
+	background-color: black;
+	border:1px solid white;
+	color:white;
+	padding:10px 20px;
+	border-radius:5px;
+	font-size:19px;
+	margin:10px 0;
+}
+.top button:hover
+{
+	border:none;
+	color:black;
+	background-color: white;
+}
+.top1
+{
+	display:flex;
+	justify-content: space-between;
+}
+.top h1
+{
+	color:#FBFBFB;
+}
+.set{
+	flex-basis:80%;
+	margin:0 auto;
+}
+.bottom p{
+	color:#595959;
+
+}
+.center p
+{
+	color:#FBFBFB;;
+	text-align:justify;
+	text-justify: inter-word;
+	line-height:23px;
+}
+.top2{
+	display:flex;
+}
+.top2 .left
+{
+	flex-basis:30%;
+	display: flex;
+	flex-direction: column;
+
+}
+.top2 .right
+{
+	flex-basis:30%;
+	display: flex;
+	flex-direction: column;
+
+}
+.top2 .center
+{
+	flex-basis:40%;
+
+}
+.top2 .left h5
+{
+	font-size:1.3rem;
+	padding-bottom:15px;
+}
+.top2 .left a
+{
+	color:#fbfbfb;
+	text-decoration: none;
+	font-size:1.2rem;
+}
+.top2 .right h5
+{
+	font-size:1.3rem ;
+	padding-bottom: 15px;
+}
+.top2 .right a
+{
+	color:#fbfbfb;
+	text-decoration: none;
+	font-size:1.4rem;
+}
+.bottom p
+{
+	padding:16px 0 7px;
+
+}
+
+
+
+
+/*---responsive web---*/
+
+@media only screen and (max-width:720px)
+{
+	.sm{
+		flex-direction:column;
+	}
+	.nav-links ul li
+	{
+		display:block;
+	}
+	.nav-links{
+		position:fixed;
+		background-color:lightgrey;
+		height:100vh;
+		width:200px;
+		top:0;
+		right:-200px;
+		text-align:left;
+		z-index:2;
+		color:black;
+		transition:1s;
+
+	}
+	nav .fa{
+		display:block;
+		color:#000;
+		margin:10px;
+		font-size:22px;
+		cursor:pointer;
+
+	}
+	.nav-links ul
+	{
+		padding:30px;
+	}
+}
